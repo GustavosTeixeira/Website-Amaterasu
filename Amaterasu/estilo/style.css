@@ -64,40 +64,61 @@ button:hover{
     background-color: #3a3833;
 }
 
+
 /*--------------------------Navbar------------------------*/
 #bar{
     padding: 10px;
 }
+
+.login-btn{
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+.login-btn:hover{
+    color: black;
+    text-decoration: none;
+    transition: .8s;
+}
+
 .cadastro-btn{
     border: 1px solid var(--color2);
     border-radius: 10px;
+    color: rgba(0, 0, 0, 0.5);
+
 }
-.login-btn{
+.cadastro-btn:hover{
+    transition: .8s;
     background-color: var(--color2);
-    border-radius: 10px;
+    color: var(--color3);
+    text-decoration: none;
 }
+
 .navbar{
     font-size: 16px; 
     top:0 ;
     left: 0;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
+
 .navbar-light .navbar-nav .nav-link{
     padding: 0 20px;
     color: black;
     transition: 0.3s ease;
 }
+
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active{
     color: var(--color2);
 }
+
 .nav-item{
     padding: 0 10px;
+    display: flex;
 }
 .nav-item i{
     margin-bottom: 15px;
-   
 }
+
 .navbar i{
     font-size: 1.2rem;
     padding: 0 7px;
@@ -108,6 +129,7 @@ button:hover{
 .navbar i:hover{
     color: var(--color2);
 }
+
 #logo{
     cursor:pointer;
     width: 80px;
@@ -282,6 +304,10 @@ button:hover{
     background-color: rgb(39, 1, 75);
 }
 /*--------------------------Fixed Banner------------------------*/
+
+/*--------------------------Feedbacks------------------------*/
+
+/*--------------------------Feedbacks------------------------*/
 
 /*--------------------------Nossa Filosofia------------------------*/
 .filosofia h2{
