@@ -12,7 +12,7 @@
     font-family: "Roboto", sans-serif;
 }
 :root{
-    --color1: #131313;
+    --color1: rgb(27, 27, 27);
     --color2: #5204da;
     --color3: #ededed;
     --color4: #240d4b;
@@ -79,31 +79,26 @@ body.dark {
     background: var(--color1);
     color: #fff;
 }    
-body.dark{
-    background-color: var(--color1);
-}    
-body.dark .nav-item {
+
+.dark .navbar-light .navbar-nav .nav-links{
     color: var(--color3);
 }    
-body.dark .navbar{
+.dark .navbar{
     background-color: var(--color1);
 }    
 
-.section-title.dark{
+.dark .section-title p{
     color: #fff;
 }
    
 #darkmode{
     visibility: hidden;
 }    
-.feedbacks.dark{
+.dark #feedbacks{
     background-color: var(--color1);
     color: #fff;
 }    
 
-.nav-item.dark{
-    color: green;
-}
 
 /*-------------------------------------------*/
 /*---------------Inicio navbar---------------*/
@@ -126,7 +121,7 @@ body.dark .navbar{
 .cadastro-btn{
     border: 1px solid var(--color2);
     border-radius: 10px;
-    color: rgba(0, 0, 0, 0.5);
+    color: var(--color2);
     
 }
 .cadastro-btn:hover{
@@ -144,14 +139,14 @@ body.dark .navbar{
     background-color: #fff;
 }
 
-.navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-links{
     padding: 0 20px;
-    color: black;
     transition: 0.3s ease;
+    color: black;
+    text-decoration: none;
 }
-.nav-link a{
-    color: red;
-}
+
+
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active{
     color: var(--color2);
@@ -237,9 +232,7 @@ body.dark .navbar{
     display: flex;
     justify-content: space-around;
 }
-.icons{
-    background-color: violet;
-}
+
 
 /*-------------------------------------------*/
 /*---------------Fixed Banner----------------*/
@@ -257,7 +250,6 @@ body.dark .navbar{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-color: red;
 }
 #banner h4{
     color: #fff;
@@ -306,6 +298,7 @@ body.dark .navbar{
 	font-size: 34px;
 	font-weight: 800;
 	position: relative;
+    font-family: 'Zen Kurenaido', sans-serif;
 }
 .section-separator {
 	float: left;
